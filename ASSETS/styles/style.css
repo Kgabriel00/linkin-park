@@ -1,0 +1,353 @@
+
+html{
+    margin: 0;
+}
+
+#body-home{
+    background-color: black;
+    background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.3)), url(https://i.redd.it/the-texture-artwork-of-from-zero-website-v0-mlll3zj8hrrd1.jpg?width=1920&format=pjpg&auto=webp&s=98dad6ac4887b7e4d73f987ab33125bc66ffbd6b);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+}
+
+@media(min-width: 1219px){
+    #body-home{
+        background-size: contain;
+    }
+}
+
+#body-discografia{
+    background: none;
+    background-color: rgb(10, 10, 10);
+    margin: auto;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 95px;
+    margin-right: 95px;
+    margin-top: 30px;
+    margin-bottom: 21px;
+}
+
+#header-discografia{
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    margin: 0;
+    background-color: rgb(139, 13, 66);
+    background: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0)), url(https://img.vsco.co/811863/311983684/675ecd5ec17209b0beff0df6/fundo-editado2.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    height: 382px;
+    align-items: start;
+    
+}
+
+h1{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 70px;
+    color: antiquewhite;
+    margin: 5px;
+}
+
+#header-discografia > h1{
+    opacity: 0.7;
+    font-size: 50px;
+    margin: 0;
+    padding:0;
+}
+
+#container-links > a{
+    font-family: "Anton SC", sans-serif;
+    font-style: normal;
+    font-size: 28px;
+    text-decoration: none;
+    background-color: antiquewhite;
+    color: black;
+    padding: 4px ;
+    margin-left: 10px;
+    border-radius: 1px;
+    margin-bottom: 2px;
+    cursor: pointer;
+}
+
+#container-links-discografia{
+    margin-top:22.5px;
+}
+
+#container-links-discografia > a{
+    font-family: "Anton SC", sans-serif;
+    font-style: normal;
+    font-size: 22px;
+    text-decoration: none;
+    background-color: rgba(250, 235, 215, 0.7);
+    color: black;
+    padding: 4px ;
+    margin-left: 10px;
+    border-radius: 1px;
+    margin-bottom: 2px;
+}
+
+
+main{
+    display: flex;
+    margin: 100px;
+    margin-top:0;
+    justify-content: space-between;
+}
+
+#main-discografia{
+    margin: auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: auto;
+    grid-gap: 40px;
+    justify-content: center;
+    justify-items: center;
+    max-width: 800px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.conteudo1-main > img{
+    width: 250px;
+    background-color: #1f1f1f;
+    padding: 15px;
+    margin-top: -100px;
+}
+
+@media(max-width:1000px){
+    .conteudo1-main > img{
+        width: 200px;
+    }
+    #main-discografia{
+        grid-template-columns: 200px 200px 200px;
+        min-width: 620px;
+    }
+
+}
+
+@media(max-width:909px){
+    .conteudo1-main > img{
+        width: 150px;
+    }
+    #main-discografia{
+        grid-template-columns: 150px 150px 150px;
+        width: 480px;
+    }
+
+}
+
+@media(max-width:859px){
+    .conteudo1-main > img{
+        width: 100px;
+    }
+    #main-discografia{
+        margin-top:-40px;
+        width: 320px;
+        grid-template-columns:100px 100px 100px ;
+    }
+
+}
+
+@media(max-width:809px){
+    .conteudo1-main > img{
+        width: 70px;
+    }
+    #main-discografia{
+        width: 220px;
+        grid-template-columns: 70px 70px 70px;
+    }
+
+}
+
+#imagem-home{
+    background-image: url(https://upload.wikimedia.org/wikipedia/pt/9/97/Linkin_Park_-_From_Zero.jpg);
+    min-width: 250px;
+    min-height: 250px;
+    background-size: contain;
+    background-repeat: no-repeat;    
+    margin-right: 10px;
+}
+
+@media(min-width:700px){
+    #imagem-home{
+        min-width: 300px;
+        height: 300px;
+    }
+}
+
+@media(min-width:900px){
+    #imagem-home{
+        min-width: 400px;
+        height: 400px;
+    }
+}
+
+@media(max-width:620px){
+    #imagem-home{
+        max-height: 250px;
+    }
+}
+
+@media(max-width:660px){
+    header > h1{
+        font-size: 60px;
+    }
+}
+
+@media(max-width:840px){
+
+    #container-links{
+        display: flex;
+        align-items: left;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    header{
+        padding-right: 10%;
+    }
+
+}
+
+#biografia{
+    color: antiquewhite;
+    max-width: 310px;
+    padding:0;
+}
+
+#biografia > h3{
+    font-family: "Anton SC", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    margin:0;
+    margin-top: -10px;
+    padding: 0;
+    color: antiquewhite;
+    text-align:center;
+}
+
+#biografia > p{
+    text-align: justify;
+    margin:0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    
+}
+
+#segundo-main-discografia{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+
+#container-musicas{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    width: 860px;
+    
+}
+
+.player{
+    background-color: #1f1f1f;
+}
+
+#footer-artigo{
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-align: end;
+    background-color: #080808;
+    justify-content: space-between;
+}
+
+#secao-membros{
+    display: flex;
+    flex-direction: column;
+}
+
+#grid-membros{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: right;
+    grid-gap: 0px 20px;
+}
+
+.img-membros{
+    object-fit: cover;
+    object-position: 50% 30%;
+    width: 100px;
+    height: 100px;
+}
+
+#container-chester{
+    margin-right: 10px;
+}
+
+#img-chester{
+    object-fit: cover;
+    object-position: 50% 30%;
+    width: 242px;
+    height: 242px;
+}
+
+#footer-artigo > p{
+    font-family: "Montserrat", sans-serif;
+}
+
+h3{
+    font-family: "Anton SC", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 28px;
+    margin:0;
+    padding: 0;
+}
+
+footer{
+    background-color: black;
+    margin: 0;
+    padding: 20px;
+    color: antiquewhite;
+    font-family: "Montserrat", sans-serif;
+}
+
+footer > h2{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    font-size: 14px;
+}
+
+footer > p{
+    margin: 0;
+    font-size: 12px;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none; 
+    font-size: 12px;
+}
+
+a:hover {
+    color: deeppink;  
+    text-decoration: underline; 
+}
+
+footer > hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
